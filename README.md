@@ -1,5 +1,5 @@
 # rear-backup
-Create bootable ISO files, containing backup tar archiv. Create bootable USB stick from various iso fil  es
+Create bootable ISO files, containing backup tar archiv. Create bootable USB stick from various iso files
 
       Usage: rear-backup_v0.1.6.sh <options> 
        -h		=> help dialog 
