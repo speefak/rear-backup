@@ -75,11 +75,10 @@ usage() {
 
 #------------------------------------------------------------------------------------------------------------
 
-        # check help dialog
-        if [[ -n $HelpDialog ]]; then usage "help dialog" ; fi
+	# check help dialog
+	if [[ -n $HelpDialog ]] || [[ -z $1 ]]; then usage "help dialog" ; fi
 
 #------------------------------------------------------------------------------------------------------------
-
         # create local mountpoint, mount ssh remote host and create iso backup target dir
         mkdir -p "${SSHFSMountpoint}"
         sshfs -o allow_other,follow_symlinks ${SSHFSUser}@${SSHFSHost}: ${SSHFSMountpoint}
