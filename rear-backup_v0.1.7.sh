@@ -3,7 +3,7 @@
 # desciption    : Create bootable ISO files containing backup tar archiv. Create bootable USB stick from various iso files, mapping storage path via sshfs
 # autor         : speefak ( itoss@gmx.de )
 # licence       : (CC) BY-NC-SA
-# version       : 0.1.6
+# version       : 0.1.7
 # notice        :
 # infosource    :
 #
