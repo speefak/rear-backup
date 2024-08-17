@@ -28,7 +28,7 @@
  RearRecoverTimeout=30
 
  RearOutputMode=ISO
- RequiredPackets="rear sshfs openssh-client syslinux syslinux-utils pigz locate"
+ RequiredPackets="rear sshfs openssh-client syslinux syslinux-utils pigz locate lshw pv"
  RearOutputImageName="$(hostname)_$(date +%F-%H%M%S)_${BackupFileSuffix}"
  SSHFSMountpoint="/mnt/${SSHFSUser}@$(echo ${SSHFSHost} | tr -d "/")_ReaR"
  RearOutputDir="${SSHFSMountpoint}/${BackupTargetDirRemoteHost}"
