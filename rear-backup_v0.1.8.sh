@@ -24,7 +24,7 @@
  TmpDirectoryOverride="false"			# does not work on debian 12 => recovery error => mktemp:failed to create file via template 'home/rear_tmp/tmp.XXXXXXXXXX: No such file ....
  RearTmpDirOverrideDir="/home/rear_tmp"		# temp dir for gathing tar files
  BackupTargetDirRemoteHost="ReaR_Backups"
- BackupExcludeDir=" $RearTmpDirOverrideDir /mnt /home /media /home/vbox/VirtualBox_VMs /home/Archiv /home/vdr_recdir /home/.Trash* /var/tmp /var/lib/rear/output "
+ BackupExcludeDir=" $RearTmpDirOverrideDir /mnt /media /home/vbox/VirtualBox_VMs /home/Archiv /home/vdr_recdir /home/.Trash* /var/tmp /var/lib/rear/output "
  RearRecoverTimeout=30
 
  RearOutputMode=ISO
