@@ -619,7 +619,5 @@ exit 0
 ############################################################################################################
 #------------------------------------------------------------------------------------------------------------
 # TODO add  create config dialog, export script configs to external file
-# TODO increase 4 GB iso threthold => https://github.com/rear/rear/issues/581
-
 
 # 0.1.8 => functionname corrected (241) // add ScriptInformation var (55) // ISO_File_Size_Limit disabled (281)
