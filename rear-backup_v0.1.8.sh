@@ -16,7 +16,6 @@
  Version=0.1.8
  ScriptName=$(basename $0)
 
-# TODO userinput / configfile
  SSHFSUser=speefak
  SSHFSHost=192.168.1.20
  BackupFileSuffix="OS"
@@ -277,6 +276,9 @@ WriteRearConfigAdditional () {
 #		ISO_MKISOFS_BIN=xorriso
 #		MKISOFS_BIN=xorriso
 #		USE_XORRISO=true
+
+		# disable iso filesize limit => 0 (default 2 GB ISO_FILE_SIZE_LIMIT=2147483648)
+		ISO_FILE_SIZE_LIMIT=0
 
 	' | grep -v "^#" >> /etc/rear/local.conf
 
@@ -612,7 +614,7 @@ exit 0
 ############################################################################################################
 #------------------------------------------------------------------------------------------------------------
 # TODO add  create config dialog, export script configs to external file
+# TODO increase 4 GB iso threthold => https://github.com/rear/rear/issues/581
 
 
-# 0.1.8 => functionname corrected (241) // add ScriptInformation var (55)
-
+# 0.1.8 => functionname corrected (241) // add ScriptInformation var (55) // ISO_File_Size_Limit disabled (281)
