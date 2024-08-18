@@ -262,17 +262,22 @@ WriteRearConfigRAW () {
 WriteRearConfigAdditional () {
 
 	echo '
+		# increase data compression by using pigs instead of gzip
 		BACKUP_PROG_COMPRESS_OPTIONS=( --use-compress-program=pigz )
 		REQUIRED_PROGS+=( pigz )
 
+		# input timeout for autorecover
 		USER_INPUT_TIMEOUT='$RearRecoverTimeout'
 
+		# resize partitions
 		AUTORESIZE_PARTITIONS=true
 #		AUTORESIZE_PARTITIONS=( /dev/sda3 )
 #		AUTORESIZE_EXCLUDE_PARTITIONS=( /dev/sda2 )
 
+		# exclude directories from backup
 		BACKUP_PROG_EXCLUDE=( '$BackupExcludeDirParsed' )
 
+		# change mkisofs to xorriso to avoid file size limits
 #		ISO_MKISOFS_BIN=xorriso
 #		MKISOFS_BIN=xorriso
 #		USE_XORRISO=true
