@@ -28,8 +28,9 @@ If you find it useful and would like to support future development, consider mak
 
     Ripple (XRP): rLHzPsX6oXkzU2qL12kHCH8G8cnZv1rBJh
 
+    Cardano (ADA): addr1q8anur2wvvc6pv3cpp30vv05makyra8huh0lk0yhdk6hcnlrzr27g03klu862usxqsru794d03gzkk8n86ta34n85z0svn5ams   
+
     USTether (USDT): 0xa61d178EA84C2200A8617b51B4bCf98F87ff59Ff
 
-    Cardano (ADA): addr1q8anur2wvvc6pv3cpp30vv05makyra8huh0lk0yhdk6hcnlrzr27g03klu862usxqsru794d03gzkk8n86ta34n85z0svn5ams   
 
 Thank you for your support! 🙏
