@@ -16,8 +16,8 @@
  Version=0.1.8
  ScriptName=$(basename $0)
 
- SSHFSUser=speefak
- SSHFSHost=192.168.1.20
+ SSHFSUser=user
+ SSHFSHost=ip
  BackupFileSuffix="OS"
  OutputDirectoryOverride="true"
  TmpDirectoryOverride="false"			# does not work on debian 12 => recovery error => mktemp:failed to create file via template 'home/rear_tmp/tmp.XXXXXXXXXX: No such file ....
