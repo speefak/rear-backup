@@ -18,7 +18,7 @@
 
 # TODO userinput / configfile
  SSHFSUser=speefak
- SSHFSHost=192.168.1.20
+ SSHFSHost=192.168.1.x
  BackupFileSuffix="OS"
  OutputDirectoryOverride="true"
  TmpDirectoryOverride="false"			# does not work on debian 12 => recovery error => mktemp:failed to create file via template 'home/rear_tmp/tmp.XXXXXXXXXX: No such file ....
